@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #303030;
+    font-family: 'Times New Roman', serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+}
+
+h5 {
+    font-size: 20px;
+    color: white;
+}
+
+h6 {
+    font-size: 15px;
+    color: white;
+}
+
+
+
+/* Header */
+
+.separator-footer {
+    height: 30px;
+    background-image: linear-gradient(#303030, #1f1f1f);
+    margin-top: 100px;
+}
+
+.separator-nav {
+    height: 30px;
+    background-image: linear-gradient(#1b1c1e, #303030)
+}
+
+/* Footer (Menu, GitHub, Copyright) */
+
+footer {
+    max-width: 100%;
+    background-color: #1f1f1f;
+    padding: 10px;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+}
+
+footer h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a img {
+    max-width: 50px;
+}
+
+.footer-column {
+    float: left;
+    padding: 10px;
+}
+
+.footer-column.side {
+    width: 25%;
+}
+
+.footer-column.middle {
+    width: 50%;
+}
+
+.footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width : 600px) {
+    .footer-column.side,
+    .footer-column.middle {
+        width: 100%;
+    }
+}
+
+/* Grid */
+
+.body-column {
+    float: left;
+    padding: 10px;
+    height: 400px;
+}
+
+.body-column.left {
+    width: 50%;
+}
+
+.body-column.right {
+    width: 50%;
+}
+
+.body-column.L {
+    width: 65%;
+}
+
+.body-column.R {
+    width: 35%;
+}
+
+.body-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width : 900px) {
+    .body-column.left,
+    .body-column.right {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .body-column.L,
+    .body-column.R {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width : 900px) {
+    .body-column.L,
+    .body-column.R {
+        height: 100%;
+    }
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    min-height: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-container > a {
+    text-decoration: none;
+    color: white;
+    padding: 33px 35px;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #303030;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    filter: blur(1px) grayscale(50%);
+    opacity: 0.6;
+    text-shadow: -1px 1px 2px black,
+    1px 1px 2px black,
+    1px -1px 2px black,
+    -1px -1px 2px black;
+    transition: 0.5s;
+}
+
+.homeTitle {
+    display: flex;
+    width: 100%;
+    font-size: 35px;
+    padding: 3px;
+    margin: 5px;
+    height: 100%;
+    color: white;
+    border-style: solid;
+    border-color: #303030;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTitle h1 {
+    text-shadow: 0px 0px #303030;
+    transition: 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title {
+    width: 100%;
+    font-size: 26px;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    text-shadow: 0px 0px #303030;
+    transition: 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* Navigation Bar */
+
+.topnav {
+    background: #1b1c1e;
+    top: 0px;
+    width: 100%;
+    font-size: 16px;
+    display: block;
+}
+
+.topnav a {
+    background: #1b1c1e;
+}
+
+.dropbtn {
+    background: #1b1c1e;
+    font-size: 16px;
+}
+
+.topnav a,
+.dropbtn {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    margin: 5px;
+    text-decoration: none;
+    border-style: none;
+    font-size: 16px;
+}
+
+.topnav a:hover,
+.dropdown:hover .droptbn {
+    background-color: #1b1c1e;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    font-family: 'Times New Roman', serif;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 5px;
+    background-color: #1b1c1e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 2px 2px;
+}
+
+.dropdown-content a {
+    color: white;
+    text-align: left;
+    padding: 8px;
+    margin: 0px;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    border-color: #1b1c1e;
+    background-color: #1b1c1e;
+}
+
+.dropdown-content a:hover {
+    background-color: #303030;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+
+/* Hide the links on small screens, except for the hamburger icon */
+@media screen and (max-width : 600px) {
+    .topnav a,
+    .dropdown {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* Hamburger icon (menu button) */
+.icon {
+    display: none;
+    background-color: #1b1c1e;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Show hamburger icon only on small screens */
+@media screen and (max-width : 600px) {
+    .icon {
+        display: block;
+    }
+}
+
+/* Make links stack vertically in responsive mode */
+.topnav.responsive a,
+.topnav.responsive .dropdown {
+    float: none;
+    display: block;
+    text-align: left;
+    border-color: #1b1c1e;
+    border-style: solid;
+    margin: 0px 0px 0px 0px;
+}
+
+.topnav.responsive .dropdown {
+    border-width: 23px;
+}
+
+
+.topnav.responsive .dropbtn {
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 11px 8px 8px 8px;
+    margin: -25px -20px -25px -20px;
+    text-decoration: none;
+    border-style: none;
+    font-size: 16px;
+
+}
+
+.topnav.responsive .dropdown-content {
+    position: absolute;
+    display: none;
+    padding: 2px;
+    margin: -19px 0px 0px -27px;
+}
+
+/* Show the dropdown on click when in responsive mode */
+.topnav.responsive .dropdown:hover .dropdown-content,
+.topnav.responsive .dropdown .dropbtn:focus + .dropdown-content {
+    display: block;
+}
+
+
+/* Card */
+
+.card {
+    padding: 20px;
+    color: white;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.card h1 {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card ul {
+    padding-left: 30px;
+    padding-bottom: 8px;
+}
+
+/* Image */
+.aboutImg {
+    padding: 20px 20px;
+    max-width: 30%;
+    float: right;
+    overflow: auto;
+}
+
+.aboutImg::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gallery {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gallery h1 {
+    font-size: 40px;
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
+}
+
+.gallery a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+}
+
+.gallery iframe {
+    border-style: solid;
+    border-color: black;
+}
+
+.resume {
+    border: 1px #cccccc solid;
+    padding: 10px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.resume img {
+    border-color: black;
+    border-style: solid;
+}
+
+.resume figcaption {
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+.corpus {
+    padding: 20px;
+    color: black;
+    max-width: 1080px;
+    margin: auto;
+    background-color: white;
+    border: 1px #cccccc solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.corpus h1 {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.corpus h2 {
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.corpus ul {
+    padding-left: 30px;
+    padding-bottom: 8px;
+    color: black;
+}
+
+.corpus a {
+    color: black;
+    text-decoration: underline;
+}
+
+.corpus img {
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#threejs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    width: auto;
+    height: auto;
+    display: block;
+}

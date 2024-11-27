@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{{ title }}</title>
+      <script src="js/javascript.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body>
+        {% include  "layouts/navbar.html" %}
+        {% include  "layouts/normalTitle.html" %}
+
+        {{ content | safe }}
+
+        {% include  "layouts/footer.html" %}
+
+    <script>
+    // Toggle menu function
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+    // Function to reset menu when the screen is resized
+    window.onresize = function () {
+        var x = document.getElementById("myTopnav");
+        if (window.innerWidth > 600) {
+            x.className = "topnav";
+            // Reset to normal menu when screen is big
+        }
+    };
+    </script>
+    </div>
+    </body>
+</html>

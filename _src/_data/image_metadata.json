@@ -149,8 +149,120 @@
     "filepath": "img/digitproject.jpg"
   },
   {
+    "filename": "NormalMap.png",
+    "filepath": "img/NormalMap.png"
+  },
+  {
     "filename": "ResumeResume.jpg",
     "filepath": "img/ResumeResume.jpg"
+  },
+  {
+    "filename": "smile.jpg",
+    "filepath": "img/smile.jpg"
+  },
+  {
+    "filename": "space_ceres.jpg",
+    "filepath": "img/space_ceres.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_earth.jpg",
+    "filepath": "img/space_earth.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_earthNight.jpg",
+    "filepath": "img/space_earthNight.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_eris.jpg",
+    "filepath": "img/space_eris.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_haumea.jpg",
+    "filepath": "img/space_haumea.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_jupiter.jpg",
+    "filepath": "img/space_jupiter.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_makemake.jpg",
+    "filepath": "img/space_makemake.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_mars.jpg",
+    "filepath": "img/space_mars.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_mercury.jpg",
+    "filepath": "img/space_mercury.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_moon.jpg",
+    "filepath": "img/space_moon.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_neptune.jpg",
+    "filepath": "img/space_neptune.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_night_sky.jpg",
+    "filepath": "img/space_night_sky.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_pluto.jpg",
+    "filepath": "img/space_pluto.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_saturn.jpg",
+    "filepath": "img/space_saturn.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_saturnring.png",
+    "filepath": "img/space_saturnring.png",
+    "desc": "space"
+  },
+  {
+    "filename": "space_saturnRing2.png",
+    "filepath": "img/space_saturnRing2.png",
+    "desc": "space"
+  },
+  {
+    "filename": "space_stars.jpg",
+    "filepath": "img/space_stars.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_sun.jpg",
+    "filepath": "img/space_sun.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_uranus.jpg",
+    "filepath": "img/space_uranus.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "space_venus.jpg",
+    "filepath": "img/space_venus.jpg",
+    "desc": "space"
+  },
+  {
+    "filename": "tardis.jpg",
+    "filepath": "img/tardis.jpg"
   },
   {
     "filename": "terrocottabasketball.png",
@@ -266,5 +378,9 @@
     "filename": "terrocottawindypath.png",
     "filepath": "img/terrocottawindypath.png",
     "desc": "terrocotta"
+  },
+  {
+    "filename": "texture.png",
+    "filepath": "img/texture.png"
   }
 ]

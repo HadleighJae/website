@@ -21,23 +21,23 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(50);
 
 // Textures downloaded from https://www.solarsystemscope.com/textures/
-const nightTexture = new THREE.TextureLoader().load('img/stars.jpg');
-const sunTexture = new THREE.TextureLoader().load('img/sun.jpg');
-const mercuryTexture = new THREE.TextureLoader().load('img/mercury.jpg');
-const venusTexture = new THREE.TextureLoader().load('img/venus.jpg');
-const moonTexture = new THREE.TextureLoader().load('img/moon.jpg');
-const earthTexture = new THREE.TextureLoader().load('img/earth.jpg');
-const marsTexture = new THREE.TextureLoader().load('img/mars.jpg');
-const jupiterTexture = new THREE.TextureLoader().load('img/jupiter.jpg');
-const saturnTexture = new THREE.TextureLoader().load('img/saturn.jpg');
-const saturnTextureRing = new THREE.TextureLoader().load('img/saturnring.png');
-const uranusTexture = new THREE.TextureLoader().load('img/uranus.jpg');
-const neptuneTexture = new THREE.TextureLoader().load('img/neptune.jpg');
-const plutoTexture = new THREE.TextureLoader().load('img/pluto.jpg');
-const erisTexture = new THREE.TextureLoader().load('img/eris.jpg');
-const haumeaTexture = new THREE.TextureLoader().load('img/haumea.jpg');
-const makemakeTexture = new THREE.TextureLoader().load('img/makemake.jpg');
-const ceresTexture = new THREE.TextureLoader().load('img/ceres.jpg');
+const nightTexture = new THREE.TextureLoader().load('img/space_stars.jpg');
+const sunTexture = new THREE.TextureLoader().load('img/space_sun.jpg');
+const mercuryTexture = new THREE.TextureLoader().load('img/space_mercury.jpg');
+const venusTexture = new THREE.TextureLoader().load('img/space_venus.jpg');
+const moonTexture = new THREE.TextureLoader().load('img/space_moon.jpg');
+const earthTexture = new THREE.TextureLoader().load('img/space_earth.jpg');
+const marsTexture = new THREE.TextureLoader().load('img/space_mars.jpg');
+const jupiterTexture = new THREE.TextureLoader().load('img/space_jupiter.jpg');
+const saturnTexture = new THREE.TextureLoader().load('img/space_saturn.jpg');
+const saturnTextureRing = new THREE.TextureLoader().load('img/space_saturnring.png');
+const uranusTexture = new THREE.TextureLoader().load('img/space_uranus.jpg');
+const neptuneTexture = new THREE.TextureLoader().load('img/space_neptune.jpg');
+const plutoTexture = new THREE.TextureLoader().load('img/space_pluto.jpg');
+const erisTexture = new THREE.TextureLoader().load('img/space_eris.jpg');
+const haumeaTexture = new THREE.TextureLoader().load('img/space_haumea.jpg');
+const makemakeTexture = new THREE.TextureLoader().load('img/space_makemake.jpg');
+const ceresTexture = new THREE.TextureLoader().load('img/space_ceres.jpg');
 
 scene.background = nightTexture;
 
@@ -192,73 +192,73 @@ sun.rotation.x = 0.1265364;
 
 // 57,900,000 kilometers from the sun
 // 0° tilt
-mercury.position.x = 579.00000;
+mercury.position.x = 57.900000;
 mercury.rotation.x = 0;
 
 // 108,200,000 kilometers from the sun
 // 177.3° tilt
-venus.position.x = 1082.00000;
+venus.position.x = 108.200000;
 venus.rotation.x = 3.0944688;
 
 // 149,215,600 km from sun, 384,400 from earth
-moon.position.x = 39.90771;
+moon.position.x = 16;
 
 // 149,600,000 kilometers from the sun
 // 23.4° tilt
-earth.position.x = 1496.00000;
+earth.position.x = 149.600000;
 earth.rotation.x = 0.408407;
 
 // 227,900,000 kilometers from the sun
 // 25.2° tilt
-mars.position.x = 2279.00000;
+mars.position.x = 227.900000;
 mars.rotation.x = 0.439823;
 
 // 778,600,000 kilometers from the sun
 // 3.1° tilt
-jupiter.position.x = 7786.00000;
+jupiter.position.x = 778.600000;
 jupiter.rotation.x = 0.0541052;
 
 // 1,433,500,000 kilometers from the sun
 // 26.7° tilt
-saturn.position.x = 14335.00000;
+saturn.position.x = 1433.500000;
 saturn.rotation.x = 0.4660029;
 
-saturnRing.position.x = 14335.00000;
+saturnRing.position.x = 1433.500000;
 saturnRing.rotation.x = 2.0367992;
 
 // 2,872,500,000 kilometers from the sun
 // 97.8° tilt
-uranus.position.x = 28725.00000;
+uranus.position.x = 2872.500000;
 uranus.rotation.x = 1.706932;
 
 // 4,495,100,000 kilometers from the sun
 // 28.3° tilt
-neptune.position.x = 44951.00000;
+neptune.position.x = 4495.100000;
 neptune.rotation.x = 0.4939282;
 
 // 5,900,000,000 kilometers from the sun
 // 122.53° tilt
-pluto.position.x = 59000.00000;
+pluto.position.x = 5900.000000;
 pluto.rotation.x = 2.13855193;
 
 // 10,000,000,000 kilometers from the sun
 // 78.3° tilt
-eris.position.x = 100000.00000;
+eris.position.x = 10000.000000;
 eris.rotation.x = 1.366593;
 
 // 6,500,000,000 kilometers from the sun
 // 126° tilt
-haumea.position.x = 65000.00000;
+haumea.position.x = 6500.000000;
 haumea.rotation.x = 2.19911;
 
 // 6,900,000,000 kilometers from the sun
 // 3° tilt
-makemake.position.x = 69000.00000;
+makemake.position.x = 6900.000000;
 makemake.rotation.x = 0.0523599;
 
 // 413,000,000 kilometers from the sun
 // 4° tilt
-ceres.position.x = 4130.00000;
+ceres.position.x = 413.000000;
 ceres.rotation.x = 0.0698132;
 
 // Lights

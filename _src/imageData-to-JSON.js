@@ -25,6 +25,11 @@ function imageToJson(imagesFolder) {
                 imageObject.desc = 'corpus';
             }
 
+            // Check if the filename contains "space"
+            if (file.toLowerCase().includes('space')) {
+                imageObject.desc = 'space';
+            }
+
             return imageObject;
         }
     }).filter(Boolean); // Remove nullish values

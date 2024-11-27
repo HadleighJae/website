@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Resume</title>
+      <script src="js/javascript.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="gallery.html">Gallery</a>
+  <div class="dropdown">
+    <button class="dropbtn">Assignments</button>
+    <div class="dropdown-content">
+      <a href="reflection.html">Reflection</a>
+      <a href="corpusanalysis.html">Corpus Analysis</a>
+      <a href="gameanalysis.html">Game Analysis</a>
+      <a href="threeJS.html">ThreeJS</a>
+    </div>
+  </div>
+</div>
+<div class="separator-nav"></div>
+        <div class="title">
+  <h1>Resume</h1>
+</div>
+
+        <div class="resume">
+<a target="_blank" href="img/ResumeResume.jpg">
+  <img src="img/ResumeResume.jpg" alt="Resume" style="width:100%"></a>
+</div>
+
+
+        <div class="separator-footer"></div>
+<footer>
+    <div class="footer-row">
+        <div class="footer-column side">
+            <h1>GitHub</h1>
+            <p>
+                <a href="https://github.com/HadleighJae/11ty-project/tree/main">GitHub Repo</a>
+            </p>
+            <a href="https://github.com/HadleighJae/11ty-project/tree/main">
+                <img src="https://cdn.iconscout.com/icon/free/png-128/github-3770680-3147283.png"
+                     alt="github logo" style="filter: invert(100%); width: 30px;">
+            </a>
+        </div>
+        <div class="footer-column middle">
+            <h1>Menu</h1>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="gameanalysis.html">Game
+                        Analysis</a>
+                </li>
+                <li>
+                    <a href="reflection.html"
+                    >Reflection</a>
+                </li>
+                <li>
+                    <a href="corpusanalysis.html">Corpus
+                        Analysis</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column side">
+            <h1>Copyright</h1>
+            <p>This work is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+                International License</a>.</p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                <img alt="Creative Commons License"
+                     src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script>
+    // Toggle menu function
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+    // Function to reset menu when the screen is resized
+    window.onresize = function () {
+        var x = document.getElementById("myTopnav");
+        if (window.innerWidth > 600) {
+            x.className = "topnav";
+            // Reset to normal menu when screen is big
+        }
+    };
+    </script>
+    </div>
+    </body>
+</html>

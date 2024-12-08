@@ -20,6 +20,20 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(50);
 
+const mercuryFollowOffset = new THREE.Vector3(-8, 0, 0);
+const venusFollowOffset = new THREE.Vector3(-20, 0, 0);
+const earthFollowOffset = new THREE.Vector3(-20, 0, 0);
+const marsFollowOffset = new THREE.Vector3(-15, 0, 0);
+const jupiterFollowOffset = new THREE.Vector3(-250, 0, 0);
+const saturnFollowOffset = new THREE.Vector3(-250, 0, 0);
+const uranusFollowOffset = new THREE.Vector3(-65, 0, 0);
+const neptuneFollowOffset = new THREE.Vector3(-65, 0, 0);
+const plutoFollowOffset = new THREE.Vector3(-4, 0, 0);
+const erisFollowOffset = new THREE.Vector3(-4, 0, 0);
+const haumeaFollowOffset = new THREE.Vector3(-3, 0, 0);
+const makemakeFollowOffset = new THREE.Vector3(-3, 0, 0);
+const ceresFollowOffset = new THREE.Vector3(-2, 0, 0);
+
 // Textures downloaded from https://www.solarsystemscope.com/textures/
 const nightTexture = new THREE.TextureLoader().load('img/space_stars.jpg');
 const sunTexture = new THREE.TextureLoader().load('img/space_sun.jpg');
@@ -352,9 +366,179 @@ function animate() {
     // 4.419 km/s   15,908.4 km/h
     makemakeObj.rotation.y += 0.0004419;
     // 17.9 km/s   64,440 km/h
-    ceresObj.rotation.y += 0.00179;
+    const ceresRotation = ceresObj.rotation.y += 0.00179;
 
-    renderer.render( scene, camera );
+    if (followMercury) {
+        // Get Mercury's world position
+        const mercuryWorldPosition = new THREE.Vector3();
+        mercury.getWorldPosition(mercuryWorldPosition);
+
+        // Calculate the camera's offset position relative to Mercury
+        const cameraOffset = mercuryFollowOffset.clone();
+        camera.position.copy(mercuryWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Mercury's position
+        controls.target.copy(mercuryWorldPosition);
+    }
+
+    if (followVenus) {
+        // Get Venus's world position
+        const venusWorldPosition = new THREE.Vector3();
+        venus.getWorldPosition(venusWorldPosition);
+
+        // Calculate the camera's offset position relative to Venus
+        const cameraOffset = venusFollowOffset.clone();
+        camera.position.copy(venusWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Venus's position
+        controls.target.copy(venusWorldPosition);
+    }
+
+    if (followEarth) {
+        // Get Earth's world position
+        const earthWorldPosition = new THREE.Vector3();
+        earth.getWorldPosition(earthWorldPosition);
+
+        // Calculate the camera's offset position relative to Earth
+        const cameraOffset = earthFollowOffset.clone();
+        camera.position.copy(earthWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Earth's position
+        controls.target.copy(earthWorldPosition);
+    }
+
+    if (followMars) {
+        // Get Mars's world position
+        const marsWorldPosition = new THREE.Vector3();
+        mars.getWorldPosition(marsWorldPosition);
+
+        // Calculate the camera's offset position relative to Mars
+        const cameraOffset = marsFollowOffset.clone();
+        camera.position.copy(marsWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Mars's position
+        controls.target.copy(marsWorldPosition);
+    }
+
+    if (followJupiter) {
+        // Get Jupiter's world position
+        const jupiterWorldPosition = new THREE.Vector3();
+        jupiter.getWorldPosition(jupiterWorldPosition);
+
+        // Calculate the camera's offset position relative to Jupiter
+        const cameraOffset = jupiterFollowOffset.clone();
+        camera.position.copy(jupiterWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Jupiter's position
+        controls.target.copy(jupiterWorldPosition);
+    }
+
+    if (followSaturn) {
+        // Get Saturn's world position
+        const saturnWorldPosition = new THREE.Vector3();
+        saturn.getWorldPosition(saturnWorldPosition);
+
+        // Calculate the camera's offset position relative to Saturn
+        const cameraOffset = saturnFollowOffset.clone();
+        camera.position.copy(saturnWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Saturn's position
+        controls.target.copy(saturnWorldPosition);
+    }
+
+    if (followUranus) {
+        // Get Uranus's world position
+        const uranusWorldPosition = new THREE.Vector3();
+        uranus.getWorldPosition(uranusWorldPosition);
+
+        // Calculate the camera's offset position relative to Uranus
+        const cameraOffset = uranusFollowOffset.clone();
+        camera.position.copy(uranusWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Uranus's position
+        controls.target.copy(uranusWorldPosition);
+    }
+
+    if (followNeptune) {
+        // Get Neptune's world position
+        const neptuneWorldPosition = new THREE.Vector3();
+        neptune.getWorldPosition(neptuneWorldPosition);
+
+        // Calculate the camera's offset position relative to Neptune
+        const cameraOffset = neptuneFollowOffset.clone();
+        camera.position.copy(neptuneWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Neptune's position
+        controls.target.copy(neptuneWorldPosition);
+    }
+
+    if (followPluto) {
+        // Get Pluto's world position
+        const plutoWorldPosition = new THREE.Vector3();
+        pluto.getWorldPosition(plutoWorldPosition);
+
+        // Calculate the camera's offset position relative to Pluto
+        const cameraOffset = plutoFollowOffset.clone();
+        camera.position.copy(plutoWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Pluto's position
+        controls.target.copy(plutoWorldPosition);
+    }
+
+    if (followEris) {
+        // Get Eris's world position
+        const erisWorldPosition = new THREE.Vector3();
+        eris.getWorldPosition(erisWorldPosition);
+
+        // Calculate the camera's offset position relative to Eris
+        const cameraOffset = erisFollowOffset.clone();
+        camera.position.copy(erisWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Eris's position
+        controls.target.copy(erisWorldPosition);
+    }
+
+    if (followHaumea) {
+        // Get Haumea's world position
+        const haumeaWorldPosition = new THREE.Vector3();
+        haumea.getWorldPosition(haumeaWorldPosition);
+
+        // Calculate the camera's offset position relative to Haumea
+        const cameraOffset = haumeaFollowOffset.clone();
+        camera.position.copy(haumeaWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Haumea's position
+        controls.target.copy(haumeaWorldPosition);
+    }
+
+    if (followMakemake) {
+        // Get Makemake's world position
+        const makemakeWorldPosition = new THREE.Vector3();
+        makemake.getWorldPosition(makemakeWorldPosition);
+
+        // Calculate the camera's offset position relative to Makemake
+        const cameraOffset = makemakeFollowOffset.clone();
+        camera.position.copy(makemakeWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Makemake's position
+        controls.target.copy(makemakeWorldPosition);
+    }
+
+    if (followCeres) {
+        // Get Ceres's world position
+        const ceresWorldPosition = new THREE.Vector3();
+        ceres.getWorldPosition(ceresWorldPosition);
+
+        // Calculate the camera's offset position relative to Ceres
+        const cameraOffset = ceresFollowOffset.clone();
+        camera.position.copy(ceresWorldPosition).add(cameraOffset);
+
+        // Update OrbitControls target to Ceres's position
+        controls.target.copy(ceresWorldPosition);
+    }
+
+    // controls.update();
+    renderer.render(scene, camera);
 }
 
 animate();

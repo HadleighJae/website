@@ -8,11 +8,18 @@ permalink: "gallery.html"
 <div class="gallery">
 <h1>Websites</h1>
 <a href="https://www.desmos.com/calculator/em2syf3v9r">Desmos Spooky's Room</a>
-  <iframe src="https://www.desmos.com/calculator/em2syf3v9r" alt="Desmos Spooky's Room" width="100%" height="300px"></iframe>
+  <iframe src="https://www.desmos.com/calculator/em2syf3v9r" alt="Desmos Spooky's Room" width="100%" height="450px"></iframe>
   <a href="https://timemapper.okfnlabs.org/anon/17l3nt-the-space-race#0">Space Race Timemapper</a>
-  <iframe src="https://timemapper.okfnlabs.org/anon/17l3nt-the-space-race#0" alt="Space Race Timemapper" width="100%" height="300px"></iframe>
+  <iframe src="https://timemapper.okfnlabs.org/anon/17l3nt-the-space-race#0" alt="Space Race Timemapper" width="100%" height="450px"></iframe>
   <a href="https://embed.kumu.io/240d0b031e239f714239983f905eb2c1">Haroun and the Sea of Stories Kumu</a>
-  <iframe src="https://embed.kumu.io/240d0b031e239f714239983f905eb2c1" alt="Haroun and the Sea of Stories Kumu" width="100%" height="300px"></iframe>
+  <iframe src="https://embed.kumu.io/240d0b031e239f714239983f905eb2c1" alt="Haroun and the Sea of Stories Kumu" width="100%" height="450px"></iframe>
+<a href="https://www.figma.com/proto/rQVSc2ttlNtGjEmU6Croj0/betterMentalAppBills?node-id=1-4&starting-point-node-id=1%3A4">Better Mental App (Designed to Hurt Mental Health)</a>
+<iframe width="100%" height="450px" src="https://embed.figma.com/proto/rQVSc2ttlNtGjEmU6Croj0/betterMentalAppBills?node-id=1-4&starting-point-node-id=1%3A4&embed-host=share" allowfullscreen></iframe>
+</div>
+<div class="gallery">
+<h1>JavaScript</h1>
+<a target="_blank" href="threeJS.html">ThreeJS Solar System</a>
+  <a target="_blank" href="threeJS.html"><img src="img/space_solarSystem.png" alt="ThreeJS Solar System" style="width:100%"></a>
 </div>
 </div>
 <div class="body-column R">

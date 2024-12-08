@@ -9,6 +9,7 @@ Some issues I am facing while doing this is Orbit Controls while focusing on a p
 
 If you can't see the planets when you click on it, try looking around, it will show up.
 <br>
+
 <button id="followMercuryBtn" onclick='mercuryText()'>Mercury</button><button id="followVenusBtn" onclick='venusText()'>Venus</button><button id="followEarthBtn" onclick='earthText()'>Earth</button><button id="followMarsBtn" onclick='marsText()'>Mars</button><button id="followJupiterBtn" onclick='jupiterText()'>Jupiter</button><button id="followSaturnBtn" onclick='saturnText()'>Saturn</button><button id="followUranusBtn" onclick='uranusText()'>Uranus</button><button id="followNeptuneBtn" onclick='neptuneText()'>Neptune</button><button id="followPlutoBtn" onclick='plutoText()'>Pluto</button><button id="followErisBtn" onclick='erisText()'>Eris</button><button id="followHaumeaBtn" onclick='haumeaText()'>Haumea</button><button id="followMakemakeBtn" onclick='makemakeText()'>Makemake</button><button id="followCeresBtn" onclick='ceresText()'>Ceres</button>
 <div id="info">
 <p>

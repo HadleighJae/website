@@ -287,6 +287,26 @@ ambientLight.position.set(0, 0, 0);
 scene.add(pointLight);
 scene.add(ambientLight);
 
+const raycaster = new THREE.Raycaster();
+
+document.addEventListener('mousedown', onMouseDown);
+
+function onMouseDown(event) {
+    const coords = new THREE.Vector2(
+        (event.clientX / renderer.domElement.clientWidth) * 2 - 1,
+        -((event.clientY / renderer.domElement.clientHeight) * 2 - 1),
+    );
+    raycaster.setFromCamera(coords, camera);
+
+    const intersections = raycaster.intersectObjects(scene.children, true);
+    if (intersections.length > 0) {
+        const selectedObject = intersections[0].object;
+        const color = new THREE.Color(Math.random(), Math.random(), Math.random());
+        selectedObject.material.color = color;
+
+    }
+}
+
 renderer.render(scene, camera);
 
 function animate() {

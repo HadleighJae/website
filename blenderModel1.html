@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ThreeJS</title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="gallery.html">Gallery</a>
+  <div class="dropdown">
+    <button class="dropbtn">Assignments</button>
+    <div class="dropdown-content">
+      <a href="reflection.html">Reflection</a>
+      <a href="corpusanalysis.html">Corpus Analysis</a>
+      <a href="gameanalysis.html">Game Analysis</a>
+      <a href="threeJS.html">ThreeJS</a>
+    </div>
+  </div>
+</div>
+<div class="separator-nav"></div>
+        <div class="title">
+  <h1>ThreeJS</h1>
+</div>
+
+        <h1>Model 1: Pumkin Used As A Fishing Boat</h1>
+<p>*Couple of notes: Flags are messed up and will be changed later and the looping will be cleaned so its less jittery at the end.</p>
+<p><canvas id="modelCanvas"></canvas></p>
+<script type="module">
+  import { initModel } from './js/model-viewer.js';
+  initModel();
+</script>
+<h2>Inspiration</h2>
+<p><img src="./assets/pumpkin-boat.jpg" alt="Pumpkin Boat"></p>
+<p><em>Image Source: <a href="https://artvee.com/dl/a-pumpkin-used-as-a-fishing-boat/">A Pumpkin Used as a Fishing Boat</a></em></p>
+<h2>Credits</h2>
+<p><strong>Artist:</strong> Filippo Morghen</p>
+<h2>Description of artist from Artvee which will be edited later:</h2>
+<p>&quot;Filippo Morghen was an Italian printmaker and engraver, born in Florence but working in Naples from circa 1760. Much of his work comprised engravings of the antiquities of Italy, such as the ruined cities of Paestum and Herculaneum, showing their architecture, frescoes, statues and other art.&quot;</p>
+
+
+        <div class="separator-footer"></div>
+<footer>
+    <div class="footer-row">
+        <div class="footer-column side">
+            <h1>GitHub</h1>
+            <p>
+                <a href="https://github.com/HadleighJae/11ty-project/tree/main">GitHub Repo</a>
+            </p>
+            <a href="https://github.com/HadleighJae/11ty-project/tree/main">
+                <img src="https://cdn.iconscout.com/icon/free/png-128/github-3770680-3147283.png"
+                     alt="github logo" style="filter: invert(100%); width: 30px;">
+            </a>
+        </div>
+        <div class="footer-column middle">
+            <h1>Menu</h1>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="gameanalysis.html">Game
+                        Analysis</a>
+                </li>
+                <li>
+                    <a href="reflection.html"
+                    >Reflection</a>
+                </li>
+                <li>
+                    <a href="corpusanalysis.html">Corpus
+                        Analysis</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-column side">
+            <h1>Copyright</h1>
+            <p>This work is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+                International License</a>.</p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                <img alt="Creative Commons License"
+                     src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script>
+function mercuryText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Mercury<br><strong>Planet Type:</strong> Terrestrial<br><strong>Distance from Sun:</strong> 57,900,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 10.8936 km/h<br><strong>Average Orbital Speed:</strong> 172,440 km/h<br><strong>Diameter:</strong> 4,879 kilometers<br><strong>Axial Tilt:</strong> 0°<br>';
+            }
+
+function venusText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Venus<br><strong>Planet Type:</strong> Terrestrial<br><strong>Distance from Sun:</strong> 108,200,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 6.516 km/h<br><strong>Average Orbital Speed:</strong> 126,000 km/h<br><strong>Diameter:</strong> 12,104 kilometers<br><strong>Axial Tilt:</strong> 177.3°<br>';
+            }
+
+function earthText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Earth<br><strong>Planet Type:</strong> Terrestrial<br><strong>Distance from Sun:</strong> 149,600,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 1,674.4 km/h<br><strong>Average Orbital Speed:</strong> 107,280 km/h<br><strong>Diameter:</strong> 12,756 kilometers<br><strong>Axial Tilt:</strong> 23.4°<br>';
+            }
+
+function marsText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Mars<br><strong>Planet Type:</strong> Terrestrial<br><strong>Distance from Sun:</strong> 227,900,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 870 km/h<br><strong>Average Orbital Speed:</strong> 86,760 km/h<br><strong>Diameter:</strong> 6,792 kilometers<br><strong>Axial Tilt:</strong> 25.2°<br>';
+            }
+
+function jupiterText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Jupiter<br><strong>Planet Type:</strong> Gas Giant<br><strong>Distance from Sun:</strong> 778,600,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 45,360 km/h<br><strong>Average Orbital Speed:</strong> 47,160 km/h<br><strong>Diameter:</strong> 142,984 kilometers<br><strong>Axial Tilt:</strong> 3.1°<br>';
+            }
+
+function saturnText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Saturn<br><strong>Planet Type:</strong> Gas Giant<br><strong>Distance from Sun:</strong> 1,433,500,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 35,532 km/h<br><strong>Average Orbital Speed:</strong> 34,920 km/h<br><strong>Diameter:</strong> 120,536 kilometers<br><strong>Axial Tilt:</strong> 26.7°<br>';
+            }
+
+function uranusText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Uranus<br><strong>Planet Type:</strong> Ice Giant<br><strong>Distance from Sun:</strong> 2,872,500,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 9,324 km/h<br><strong>Average Orbital Speed:</strong> 24,480 km/h<br><strong>Diameter:</strong> 51,118 kilometers<br><strong>Axial Tilt:</strong> 97.8°<br>';
+            }
+
+function neptuneText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Neptune<br><strong>Planet Type:</strong> Ice Giant<br><strong>Distance from Sun:</strong> 4,495,100,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 9,648 km/h<br><strong>Average Orbital Speed:</strong> 19,440 km/h<br><strong>Diameter:</strong> 49,528 kilometers<br><strong>Axial Tilt:</strong> 28.3°<br>';
+            }
+
+function plutoText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Pluto<br><strong>Planet Type:</strong> Dwarf<br><strong>Distance from Sun:</strong> 5,900,000,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 47.18 km/h<br><strong>Average Orbital Speed:</strong> 17,074.8 km/h<br><strong>Diameter:</strong> 2,377 kilometers<br><strong>Axial Tilt:</strong> 122.53°<br>';
+            }
+
+function erisText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Eris<br><strong>Planet Type:</strong> Dwarf<br><strong>Distance from Sun:</strong> 10,000,000,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 12,361.68 km/h<br><strong>Average Orbital Speed:</strong> 12,362.4 km/h<br><strong>Diameter:</strong> 2,326 kilometers<br><strong>Axial Tilt:</strong> 78.3°<br>';
+            }
+
+function haumeaText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Haumea<br><strong>Planet Type:</strong> Dwarf<br><strong>Distance from Sun:</strong> 6,500,000,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 1400.828109 km/h<br><strong>Average Orbital Speed:</strong> 16,308 km/h<br><strong>Diameter:</strong> 1,740 kilometers<br><strong>Axial Tilt:</strong> 126°<br>';
+            }
+
+function makemakeText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Makemake<br><strong>Planet Type:</strong> Dwarf<br><strong>Distance from Sun:</strong> 6,900,000,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 200.5 km/h<br><strong>Average Orbital Speed:</strong> 15,908.4 km/h<br><strong>Diameter:</strong> 1,434 kilometers<br><strong>Axial Tilt:</strong> 3°<br>';
+            }
+
+function ceresText()
+            {
+                document.getElementById('boldStuff').innerHTML = '<strong>Name:</strong> Ceres<br><strong>Planet Type:</strong> Dwarf<br><strong>Distance from Sun:</strong> 413,000,000 kilometers<br><strong>Equatorial Rotation Velocity:</strong> 333.396 km/h<br><strong>Average Orbital Speed:</strong> 64,440 km/h<br><strong>Diameter:</strong> 964 kilometers<br><strong>Axial Tilt:</strong> 4°<br>';
+            }
+
+function toggleButton(buttonId) {
+    const button = document.getElementById(buttonId);
+    button.classList.toggle("active");
+}
+
+// Add event listeners to all buttons
+const buttons = document.querySelectorAll("button");
+buttons.forEach(button => {
+    button.addEventListener("click", () => toggleButton(button.id));
+});
+    // Toggle menu function
+    function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+    // Function to reset menu when the screen is resized
+    window.onresize = function () {
+        var x = document.getElementById("myTopnav");
+        if (window.innerWidth > 600) {
+            x.className = "topnav";
+            // Reset to normal menu when screen is big
+        }
+    };
+    </script>
+    </div>
+    </body>
+</html>

@@ -287,10 +287,6 @@ ambientLight.position.set(0, 0, 0);
 scene.add(pointLight);
 scene.add(ambientLight);
 
-const raycaster = new THREE.Raycaster();
-
-document.addEventListener('mousedown', onMouseDown);
-
 renderer.render(scene, camera);
 
 function animate() {

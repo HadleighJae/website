@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SVG</title>
+        <style>
+
+        svg {
+        	transition: all 3s ease-in-out;
+        }
+        
+        svg #hadleigh {
+        	transition: all 3s ease-in-out;
+        }
+        
+        svg:hover #hadleigh {
+            fill: white;
+            transition: all 3s ease-in-out;
+        }
+        
+        svg:hover {
+        	transform:rotate(360deg);
+            transition: all 3s ease-in-out;
+            background-color: black;
+        }
+        
+
+    </style>
+    </head>
+    <body>
+        <svg style="width:500px;height:386px" xmlns="http://www.w3.org/2000/svg">
+            <text id="hadleigh" x="0" y="25" style="font-family:Verdana;font-size:32">
+                Hadleigh
+                <animateMotion
+                    path="M0, 0 360 150, 0 340, 20 360, 360 210, 160 0, 0 150, 240 360, 360 290, 60 0, 0 50, 360 350, 350 360, 0 250, 360 50, 320 0, 0 100, 170 360, 360 250, 0 0 0 0"
+                    begin="0s" dur="20s" repeatCount="indefinite"/>
+            </text>
+            <line x1="0" y1="0" x2="0" y2="386" style="stroke:black;stroke-width:3" />
+            <line x1="500" y1="0" x2="500" y2="386" style="stroke:black;stroke-width:3" />
+            <line x1="0" y1="0" x2="500" y2="0" style="stroke:black;stroke-width:3" />
+            <line x1="0" y1="386" x2="500" y2="386" style="stroke:black;stroke-width:3" />
+        </svg>
+    </body>
+</html>

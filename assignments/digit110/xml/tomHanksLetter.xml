@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="tomHanksLetter.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <meta>
+        <data type="letterFrom">Tom Hanks</data>
+        <data type="letterTo">Chris, Ashley, Nerdist Industries</data>
+        <data type="typedOn">1934 Smith Corona Silent Typewriter</data>
+    </meta>
+    <letter>
+
+        <date when="2012-07-13" rend="typed">13 July 2012</date>
+
+        <header rend="print">
+            <h1 rend="underline">PLAYTONE</h1>
+
+            <h2>Film Television Music Typewriters</h2>
+        </header>
+
+        <p rend="typed">Dear Chris, Ashley, and all the diabolical genuies at Nerdist
+            Industries.</p>
+
+        <p rend="typed">Just who do you think you are to try to <mark color="red">briibe</mark>
+            <mark color="red" rend="faded">me</mark> into an apperance on your <q>thing</q> with this
+            gift of the most fantastic Cornona Silent typewriter made in 1934?</p>
+
+        <p rend="typed">You are out of your minds if you think… that I… wow, this thing has great
+            action… and this deep crimson color… Wait! I’m not so shallow as to… and it types nearly
+            silently…</p>
+
+        <p rend="typed">Oh, OKAY!</p>
+
+        <p rend="typed">I will have my people contact yours and work out some kind of interview
+            process…</p>
+
+        <p rend="typed">Damn you all to hell,</p>
+
+        <p rend="written">Tom Hanks</p>
+    </letter>
+</xml>

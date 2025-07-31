@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ballad of Booker T.</title>
+                <author ref="#l.h">Langston Hughes</author>
+                <respStmt>
+                    <resp>Converted to XML TEI encoding</resp>
+                    <name>Hadleigh Jae Bills</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Encoded By Hadleigh Jae Bills</p>
+                <p>Encoded <date when="2023-10-01">2023-10-06</date></p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution ref="#l.o.c">Library of Congress</institution>
+                        <repository>Manuscript Division</repository>
+                        <idno>A57-A58</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="S" medium="black-ink" script="cursive">Signed with
+                                black ink</handNote>
+                        </handDesc>
+                        <typeDesc>
+                            <typeNote xml:id="T">Typed using black ink with a typewriter
+                                font.</typeNote>
+                        </typeDesc>
+                        <decoDesc>
+                            <decoNote>A red stamp labeled "Library of Congress" is located towards
+                                the top of the document</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="h.h.f">
+                        <placeName>Hollow Hills Farm</placeName>
+                        <settlement>Monterey</settlement>
+                        <country key="US">United States of America</country>
+                    </place>
+                    <place xml:id="atl">
+                        <settlement>Atlanta</settlement>
+                        <country key="US">United States of America</country>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="b.w">
+                        <persName>
+                            <surname>Washington</surname>
+                            <forename type="first">Booker</forename>
+                            <forename type="middle">Taliaferro</forename>
+                        </persName>
+                        <birth when="1856"/>
+                        <death when="1915"/>
+                    </person>
+                    <person xml:id="l.h">
+                        <persName>
+                            <surname>Hughes</surname>
+                            <forename type="first">James</forename>
+                            <forename type="middle">Mercer</forename>
+                            <forename type="middle">Langston</forename>
+                        </persName>
+                        <birth when="1902"/>
+                        <death when="1967"/>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="l.o.c">
+                        <orgName>Library of Congress</orgName>
+                    </org>
+                </listOrg>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="witness">
+                <listWit>
+                    <witness xml:id="D1">
+                        <bibl>
+                            <title>Ballad of Booker T.</title>
+                            <author>Langston Hughes</author>
+                            <edition>1st Draft</edition>
+                            <date>30 May 1941</date>
+                            <ptr facs="bt_1.jpg"/>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="D2">
+                        <bibl>
+                            <title>Ballad of Booker T.</title>
+                            <author>Langston Hughes</author>
+                            <edition>2nd Draft</edition>
+                            <date>31 May 1941</date>
+                            <ptr facs="bt_2.jpg"/>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="D3">
+                        <bibl>
+                            <title>Ballad of Booker T.</title>
+                            <author>Langston Hughes</author>
+                            <edition>3rd Draft</edition>
+                            <date>1 June 1941</date>
+                            <ptr facs="bt_3.jpg"/>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="D4">
+                        <bibl>
+                            <title>Ballad of Booker T.</title>
+                            <author>Langston Hughes</author>
+                            <edition>4th Draft</edition>
+                            <date>1 June 1941</date>
+                            <ptr facs="bt_4.jpg"/>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="D5">
+                        <bibl>
+                            <title>Ballad of Booker T.</title>
+                            <author>Langston Hughes</author>
+                            <edition>Final Draft</edition>
+                            <date>1 June 1941</date>
+                            <ptr facs="bt_5.jpg"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <head>
+                <title>BALLAD OF <persName ref="#b.w">BOOKER T.</persName>"</title> by <persName
+                    ref="#l.h">Langston Hughes</persName>
+            </head>
+
+
+            <p><handShift new="#T"/>
+                <lg>
+                <l><persName ref="#b.w">Booker T.</persName></l>
+                <l>Was a practical man.</l>
+                <l>He said, Till the soil</l>
+                <l>And learn from the land.</l>
+                <l>Let down your bucket</l>
+                <l>Where you are.</l>
+                <l>Your fate is here</l>
+                <l>And not afar.</l>
+                <l>To help yourself</l>
+                <l>And your fellow man,</l>
+                <l>Train your head,</l>
+                <l>Your heart, <hi rend="underline">and your hand.</hi></l>
+                <l>For smartness alone's</l>
+                <l>Surely not meet—</l>
+                <l>If you haven't at the same time</l>
+                <l>Got something to eat.</l>
+                <l>Thus at Tuskegee</l>
+                <l>He built a school</l>
+                <l>With book-learning there</l>
+                <l>And the workman's tool.</l>
+                <l>He started out</l>
+                <l>In a simple way—</l>
+                <l>For yesterday</l>
+                <l>Was <hi rend="underline">not</hi> today.</l>
+                <l>Sometimes he had</l>
+                <l>Compromise in his talk—</l>
+                <l>For a man must crawl</l>
+                <l>Before he can walk—</l>
+                <l>And in Alabama in '85</l>
+                <l>A joker was lucky To be alive.</l>
+                <l>But <persName ref="#b.w">Booker T.</persName></l>
+                <l>Was nobody's fool:</l>
+                <l>You may carve a dream</l>
+                <l>With an humble tool.</l>
+                <l>The tallest tower</l>
+                <l>Can tumble down</l>
+                <l>If it be not rooted</l>
+                <l>In solid ground.</l>
+                <l>So, being a far-seeing</l>
+                <l>Practical man,</l>
+                <l>He said, Train your head,</l>
+                <l>Your heart, <hi rend="underline">and your hand.</hi></l>
+                <l>Your fate is here</l>
+                <l>And not afar,</l>
+                <l>So let down your bucket</l>
+                <l>Where you are.</l>
+            </lg></p>
+        </body>
+
+        <back>
+            <p><handShift new="#S"/><persName ref="#l.h">LANGSTON HUGHES</persName>
+                <handShift new="#T"/>Final Draft, <placeName ref="#h.h.f">Hollow Hills Farm,
+                    Monterey, California,</placeName>
+                <date when="1941-06-01">June 1, 1941</date>.</p>
+        </back>
+
+    </text>
+
+</TEI>

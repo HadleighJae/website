@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Untitled4.rnc" type="application/relax-ng-compact-syntax"?>
+<recipies>
+    <recipie>
+        <doc source="Hello Fresh" food="Chicken and Spaghetti Alfredo With a Twist with Tuscan Spices and Roasted Garlic Herb Butter"/>
+<head>
+
+    <description>
+        <note>
+        This spin on pasta alfredo delivers all the creamy, cheesy goodness you crave … and so much more. Think chunks of seared chicken breast coated with our specialty blend of Mediterranean spices, a serious hit of garlic herb butter (we roast the garlic for you), sautéed shallot, and flecks of chopped fresh parsley. Sold yet? We were the moment we smelled it cooking in our test kitchen.
+        </note>
+    
+        <tags tag="spicy">
+            Spicy
+        </tags>
+    
+        <allergens>
+            <allergen>Dairy</allergen>, <allergen>Wheat</allergen>
+            <allergensNote>Produced in a facility that processes eggs, milk, fish, peanuts, sesame, shellfish, soy, tree nuts, and wheat.</allergensNote>
+        </allergens>
+    
+        <time duration="PT30M">
+        Total Time: 35 Minutes
+        </time>
+    
+        <difficulty level="easy">
+        Cooking Difficulty: Easy
+        </difficulty>
+        
+        <servings people="4">Servings: 4</servings>
+    </description>
+
+    <nutritions>
+        <nutrition q="3389.0" name="Energy" unit="kJ">3389kJ Energy</nutrition>
+        <nutrition q="810.0" name="Calories" unit="kcal">810kcal Calories</nutrition>
+        <nutrition q="28.0" name="Fat" unit="g">28g Fat</nutrition>
+        <nutrition q="15.0" name="SaturatedFat" unit="g">15g Saturated Fat</nutrition>
+        <nutrition q="72.0" name="Carbohydrate" unit="g">72g Carbohydrate</nutrition>
+        <nutrition q="9.0" name="Sugar" unit="g">9g Sugar</nutrition>
+        <nutrition q="4.0" name="DietaryFiber" unit="g">4g Dietary Fiber</nutrition>
+        <nutrition q="57.0" name="Protein" unit="g">57g Protein</nutrition>
+        <nutrition q="180.0" name="Cholesterol" unit="mg">180mg Cholesterol</nutrition>
+        <nutrition q="580.0" name="Sodium" unit="mg">580mg Sodium</nutrition>
+        <nutritionNote>Due to the different suppliers we purchase our products from, nutritionsal facts per meal can vary from the website to what is received in the delivered box, depending on your region.</nutritionNote>
+    </nutritions>
+
+    <ingredients>
+        <ingredient q="24.0" name="ChickenBreasts" unit="oz" included="yes">24 ounce Chicken Breasts</ingredient>
+        <ingredient q="2.0" name="GarlicHerbButter" unit="tbsp" included="yes" contains="Milk">2 tablespoons of Garlic Herb Butter (Contains Milk)</ingredient>
+        <ingredient q="2.0" name="Garlic" unit="clove" included="yes">2 clove Garlic</ingredient>
+        <ingredient q="12.0" name="Spaghetti" unit="oz" included="yes" contains="Wheat">12 ounce Spaghetti (Contains Wheat)</ingredient>
+        <ingredient q="6.75" name="Milk" unit="oz" included="yes" contains="Milk">6.75 ounce Milk (Contains Milk)</ingredient>
+        <ingredient q="1.0" name="ParmesanCheese" unit="c" included="yes" contains="Milk">1 cup Parmesan Cheese (Contains Milk)</ingredient>
+        <ingredient q="1.0" name="TuscanHeatSpice" unit="tbsp" included="yes">1 tablespoon Tuscan Heat Spice</ingredient>
+        <ingredient q="1.0" name="Shallot" unit="unit" included="yes">1 unit Shallot</ingredient>
+        <ingredient q="1.4" name="Parsley" unit="oz" included="yes">1.4 ounce Parsley</ingredient>
+        <ingredient q="1.0" name="Flour" unit="tbsp" included="yes" contains="Wheat">1 tablespoon Flour (Contains Wheat)</ingredient>
+        <ingredient q="4.0" name="CreamCheese" unit="tbsp" included="yes" contains="Milk">4 tablespoon Cream Cheese (Contains Milk)</ingredient>
+        <ingredient q="2.0" name="OliveOil" unit="tsp" included="no">2 teaspoon Olive Oil</ingredient>
+        <ingredient name="KosherSalt" included="no">Kosher Salt</ingredient>
+        <ingredient name="Pepper" included="no">Pepper</ingredient>
+    </ingredients>
+    
+    <utensils>
+        <utensil name="LargePot">Large Pot</utensil>
+        <utensil name="PaperTowel">Paper Towel</utensil>
+        <utensil name="LargePan">Large Pan</utensil>
+    </utensils>
+    
+</head>
+        
+
+<body>    <instructions>
+
+    <instruction num="1">Wash and dry all produce. Bring a <ref thing="LargePot">large pot</ref> of salted water to a boil. Pat <ref thing="ChickenBreasts">chicken</ref> dry with a <ref thing="PaperTowel">paper towel</ref>. Season all over with <ref thing="TuscanHeatSpice">Tuscan heat spice</ref>, a large drizzle of <ref thing="OliveOil">olive oil</ref>, and <ref thing="KosherSalt">salt</ref> and <ref thing="Pepper">pepper</ref>.</instruction>
+    <instruction num="2">Heat <ref thing="GarlicHerbButter">garlic herb butter</ref> in a <ref thing="LargePan">large nonstick pan</ref> over medium-high heat. Add <ref thing="ChickenBreasts">chicken</ref> and cook until golden brown, <time fromDuration="PT5M" toDuration="PT6M">5-6 minutes</time>. Turn and continue to cook until golden brown and fully cooked through, <time fromDuration="PT5M" toDuration="PT7M">>5-7 minutes</time> more depending on the thickness of the <ref thing="ChickenBreasts">chicken</ref>. (TIP: If the <ref thing="ChickenBreasts">chicken</ref> is getting too dark, lower heat to medium.)</instruction>
+    <instruction num="3">Meanwhile, peel, halve, and finely chop <ref thing="Shallot">shallot</ref> and <ref thing="Garlic">garlic</ref>. Roughly chop <ref thing="Parsley">parsley</ref>. (TIP: It’s fine to use the stems—just finely chop.) When water is boiling, add <ref thing="Spaghetti">spaghetti</ref> and cook until tender, <time fromDuration="PT10M" toDuration="PT12M">10-12 minutes</time>. Reserve 1 cup <ref thing="Spaghetti">pasta</ref> cooking water and drain. Make a slurry by whisking <ref thing="Flour">flour</ref> into cooking water; whisk until somewhat smooth. (TIP: A few clumps are okay.)</instruction>
+    <instruction num="4">Transfer <ref thing="ChickenBreasts">chicken</ref> to a plate and let rest. Do not wipe out <ref thing="LargePan">pan</ref>; add <ref thing="Shallot">shallot</ref> and <ref thing="Garlic">garlic</ref> and cook over medium-high heat, stirring occasionally, until slightly softened, <time fromDuration="PT30S" toDuration="PT60S">30-60 seconds</time>. Whisk in milk and slurry. Bring to a boil, then whisk in <ref thing="CreamCheese">cream cheese</ref> and cook until smooth.</instruction>
+    <instruction num="5">Meanwhile, dice <ref thing="ChickenBreasts">chicken</ref> into bite-sized pieces and add to sauce in <ref thing="LargePan">pan</ref>. Reserve ¼ cup <ref thing="ParmesanCheese">Parmesan</ref> for garnish and add rest to sauce. Season with <ref thing="KosherSalt">salt</ref> and <ref thing="Pepper">pepper</ref>. Stir well to coat <ref thing="ChickenBreasts">chicken</ref>.</instruction>
+    <instruction num="6">Add <ref thing="Spaghetti">spaghetti</ref> to <ref thing="LargePan">pan</ref> along with half the <ref thing="Parsley">parsley</ref>. Using tongs, gently toss <ref thing="Spaghetti">pasta</ref> and <ref thing="ChickenBreasts">chicken</ref> until well coated. Divide into four serving bowls and sprinkle evenly with reserved <ref thing="ParmesanCheese">Parmesan</ref> and remaining <ref thing="Parsley">parsley</ref>.</instruction>
+
+    </instructions></body>
+    </recipie>
+</recipies>
+
+

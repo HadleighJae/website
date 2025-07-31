@@ -1,0 +1,65 @@
+body {
+	background-color: grey;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+a {
+	color: skyblue;
+}
+
+table { 
+	border-collapse: collapse; 
+	width: 100%;
+	border: 2px solid black;
+}
+
+tr {
+	border-collapse: collapse;
+	border: 0
+}
+
+th { 
+	border-collapse: collapse;
+	border: 1px solid  #000066;
+	background-color: #bad7e6;
+	padding: 1px;
+	vertical-align:top;
+}
+
+td { 
+	border-collapse: collapse;
+	border: 1px solid #000066;
+	padding: 7px;
+	vertical-align:top;
+}
+
+.location {
+	font-variant-caps: small-caps;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.time {
+	font-style: italic;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.tech {
+	font-style: italic;
+    color: salmon;
+    font-weight: bold;
+}
+
+.date {
+    text-decoration: underline;
+    font-weight: bold;
+}

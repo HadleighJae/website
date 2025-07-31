@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bills_02.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <meta type="HEADER">
+        <title>Leaves</title>
+        <name type="AUTHOR">Lloyd Schwartz</name> <date when="1941">1941–</date>
+    </meta>
+
+    <poem type="FreeVerse">
+        <stanza num="1">
+            <li num="1">Every <date when="October">October</date> it becomes important, no, necessary</li>
+            <li num="2">to see the <fos type="REPITITION" num="1" mark="START"/>leaves turning, to be
+                surrounded</li>
+            <li num="3">by leaves turning<fos type="REPITITION" num="1" mark="END"/>; it's not just
+                the symbolism,</li>
+            <li num="4">to confront in the <fos type="PERSONIFICATION" num="1">death of the year</fos> your
+                death,</li>
+            <li num="5">one blazing farewell appearance, though the irony</li>
+            <li num="6">isn't lost on you that <fos type="PERSONIFICATION" num="2" mark="START"
+                />nature is most seductive</li>
+            <li num="7">when it's about to die, flaunting the dazzle of its</li>
+            <li num="8">incipient exit<fos type="PERSONIFICATION" num="2" mark="END"/>, an ending that
+                at least so far</li>
+            <li num="9">the effects of human progress <etc type="PARENTHASES">pollution, acid
+                    rain</etc></li>
+            <li num="10">have not yet frightened you enough to make you believe</li>
+            <li num="11">is real; that is, you know <fos type="METAPHOR">this ending is a
+                    deception</fos></li>
+            <li num="12">because of course <fos type="PERSONIFICATION" num="3" mark="START"/>nature is
+                always renewing itself—</li>
+            <li num="13">the trees don't die, they just pretend,</li>
+            <li num="14">go out in style, and return in style<fos type="PERSONIFICATION" num="3"
+                    mark="END"/>: a new style.</li>
+        </stanza>
+
+        <stanza num="2">
+            <li num="1">Is it deliberate how far they make you go</li>
+            <li num="2">especially if you live in the city to get far</li>
+            <li num="3">enough away from home to see <fos type="HYPERBOLE" num="1" mark="START"/>not
+                just trees</li>
+            <li num="4">but only trees?<fos type="HYPERBOLE" num="1" mark="END"/> The boring highways,
+                roadsigns, high</li>
+            <li num="5">speeds, 10-axle trucks passing you as if they were</li>
+            <li num="6">in an even greater hurry than you to look at leaves:</li>
+            <li num="7">so you drive in terror for literal hours and it looks</li>
+            <li num="8">like rain, or snow, but it's probably just clouds</li>
+            <li num="9"><etc type="PARENTHASES">too cloudy to see any color?</etc> and you
+                wonder,</li>
+            <li num="10">given the <fos type="METAPHOR">poverty of your memory</fos>, which road had
+                the</li>
+            <li num="11">most color last year, but it doesn't matter since</li>
+            <li num="12"><fos type="IRONY" num="1" mark="START"/>you're probably too late anyway, or
+                too early—</li>
+            <li num="13"> whichever road you take will be the wrong one </li>
+            <li num="14">and you've probably come all this way for nothing<fos type="IRONY" num="1"
+                    mark="END"/>.</li>
+        </stanza>
+
+        <stanza num="3">
+            <li num="1">You'll be driving along depressed when suddenly</li>
+            <li num="2">a <fos type="PERSONIFICATION" num="4">cloud will move</fos> and the <fos
+                    type="PERSONIFICATION" num="5">sun will muscle through</fos></li>
+            <li num="3">and ignite the hills. It may not last. Probably</li>
+            <li num="4">won't last. <fos type="PERSONIFICATION" num="6" mark=""/>But for a moment the
+                whole world</li>
+            <li num="5">comes to. Wakes up. Proves <fos type="REPITITION" num="2">it lives. It
+                    lives</fos><fos type="PERSONIFICATION" num="6" mark="END"/>—</li>
+            <li num="6">red, yellow, orange, brown, russet, ocher, vermilion,</li>
+            <li num="7">gold. <fos type="REPITITION" num="3">Flame and rust. Flame and rust</fos>, the
+                permutations</li>
+            <li num="8">of burning. <fos type="REPITITION" num="4">You're on fire. Your eyes are on
+                    fire</fos>.</li>
+            <li num="9">It won't last, you don't want it to last. You</li>
+            <li num="10"><fos type="IRONY" num="2" mark="START"/>can't stand any more. But you don't want it to
+                stop.</li>
+            <li num="11">It's what you've come for. It's what you'll</li>
+            <li num="12">come back for. It won't stay with you, but you'll</li>
+            <li num="13">remember that it felt like nothing else you've felt</li>
+            <li num="14">or something you've felt that also didn't last.<fos type="IRONY" num="2" mark="END"/></li>
+        </stanza>
+    </poem>
+
+</xml>

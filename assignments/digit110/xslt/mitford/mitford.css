@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.siteTitle {
+    display: block;
+    border: 2px solid black;
+    max-width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.notebook {
+	padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.yearSection {
+	padding: 5px;
+    margin: 5px;
+    border: 1px solid blue;
+}
+
+.yearSection h1 {
+	font-size: 35px;
+    text-align: center;
+}
+
+.month {
+	font-size: 30px;
+    border: 1px solid green;
+}
+
+.month h1 {
+	font-size: 25px;
+}
+
+.entry {
+	padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+	border: 1px solid purple;
+}
+
+.entry h1 {
+	font-size: 20px;
+    text-align: left;
+}
+
+.entry p {
+	font-size: 15px;
+}
+
+.placeName {
+	color: green;
+}
+
+.persName {
+	color: blue
+}
+
+.title {
+	font-style: italic;
+}
+
+.orgName {
+	color: purple;
+}
+
+.unclear {
+	color: red;
+}

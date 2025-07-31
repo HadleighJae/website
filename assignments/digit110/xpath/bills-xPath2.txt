@@ -1,0 +1,18 @@
+1. //div[@type="historical_people"]
+
+2a. //div[@type="historical_people"]//*
+2b. //div[@type="Mitford_Team"]//*
+2c. count(//div/*)
+
+3a. //list[@sortKey="animals"]/item => count() 67
+3b. //list[@sortKey="animals"]/item[last()] Crested Wren
+3c. //list[@sortKey="plants"]/item[5] Apricot Tree
+3d. //list[@sortKey="plants"]/item[position() le 6]
+
+4. //person/occupation[1] returns every person's first listed occupation. (//person/occupation)[1] returns the first listed person's occupation.
+
+5a. //person 1503
+5b. //person[@sex] 1378
+5c. count(//person[@sex]) div count(//person) * 100 91.6833000665335995%
+5d. count(//person[@sex="f"]) div count(//person[@sex]) * 100 29.6806966618287373%
+

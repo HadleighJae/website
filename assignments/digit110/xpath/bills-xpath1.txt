@@ -1,0 +1,17 @@
+Learning XPath with CBML: XPath Exercise 1
+
+1. //div[@type="panelGrp"]
+2. //div[@type="panelGrp"]/cbml:panel
+3. 
+    - //div[@type="panelGrp"]/cbml:panel[2]
+    - //div[@type="panelGrp"]/cbml:panel[2]//*
+    - 115 Items
+4. 
+    - @characters
+    - 2 Results #narrator #Jehova
+5. //cbml:panel[@characters="#narrator"]
+6. 
+    - 41 Elements
+    - Using google translate (and knowledge from spanish class), it seems to be labels and sayings
+    - //cbml:panel[element(floatingText)]
+    - count(//cbml:panel[element(floatingText)]) or //cbml:panel[element(floatingText)] => count() 26

@@ -1,0 +1,17 @@
+start = xml
+
+xml = element xml {meta, letter}
+meta = element meta {data+}
+data = element data {type, text}
+type = attribute type {text}
+letter = element letter {date, header, p+}
+date = element date {when, rend+, text}
+when = attribute when {xsd:date}
+header = element header {h1, h2, rend}
+h1 = element h1 {rend, text}
+h2 = element h2 {text}
+p = element p {rend+, mixed{mark*, q*}}
+q = element q {text}
+mark = element mark {color, rend?, text}
+color = attribute color {text}
+rend = attribute rend {"typed" | "written" | "print" | "faded" | "underline"}

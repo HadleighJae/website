@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml> <!-- 2023-09-01: hjb: There is no root element -->
+<teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Poem 6 (J 281: 1861/1935)</title> <!-- 2023-09-01: hjb: The opening <title> tag is lowercase while the closing <Title> is uppercase. XML is case sensitive, so it needs to be the same -->
+                <author>Emily Dickinson</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Fascicle 16: Dickinson's variants and published versions</p> <!-- 2023-09-01: hjb: the <p> element is open for both the opening and closing tag. The closing tag must have a / to end it -->
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno>1606</idno>
+                    </msIdentifier>
+                </msDesc>
+                <bibl>
+                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/> <!-- 2023-09-01: hjb: The <ref> has no closing tag or self closing element. You can fix this by either adding a / at the end of the element or add a closing </ref> tag -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="references">
+                <listRef>
+                    <ptr target="xml/1606variant.xml"/>
+                    <ptr target="img/1606/fs1606a.jpg"/>
+                    <ptr target="img/1606/fs1606b.jpg"/> <!-- 2023-09-01: hjb: There is no = between the attribute and its value -->
+                    <ptr target="img/1606/1606fha.jpg"/>
+                    <ptr target="img/1606/1606fhb.jpg"/>
+                    <ptr target="img/1606/1606fhMap.jpg"/>
+                    <ptr target="img/1606/fs1606Map.jpg"/> <!-- 2023-09-01: hjb: There is no self closing to this like the other <ptr> elements -->
+                </listRef> <!-- 2023-09-01: hjb: The closing tag has an uppercase L at the beginning while the opening tag has a lowercase l -->
+            </div>
+            <div type="witness">
+                <listWit>
+                    <witness xml:id="df16">
+                        <bibl>
+                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author> <!-- 2023-09-01: hjb: The opening <author> element is tangled with the closing </title> tag -->
+                        </bibl>
+                    </witness>
+                    <witness xml:id="fh"> <!-- 2023-09-01: hjb: the xml:id attribute element doesn't have closing quotation marks -->
+                        <bibl>
+                            <title>Final Harvest: Emily Dickinson's Poems</title>
+                            <author>Emily Dickinson</author>
+                            <editor>Thomas H. Johnson</editor>
+                            <pub>Boston</pub> <!-- 2023-09-01: hjb: The Place attribute has no value. You have a few choices, you could get rid of the attribute all together or give the attribute a value. Also, the closing tag should not include the attribute -->
+                            <publisher>Little, Brown &amp; Company</publisher> <!-- 2023-09-01: hjb: The & NEEDS to be changed to &amp; -->
+                            <date>1961</date>
+                        </bibl> <!-- 2023-09-01: hjb: The <bibl> element does not have a closing element -->
+                        
+                    </witness>
+                </listWit> <!-- 2023-09-01: hjb: The <listWit> element needs a closing </listWit> element -->
+            </div>
+        </front>
+        <body>
+            <head>
+                <title>Poem 6 (J 281: 1861/1935)</title>
+            </head>
+            <lg>
+                <l n="1">
+                    'Tis so appalling—it
+                    <app>
+                        <rdg wit="#df16">Exhilarates—</rdg>
+                        <rdg wit="#fh">exhilarates—</rdg>
+                        <!-- 2016-06-23: nll: The XSLT to grab and count all of the dashes for the Dash Reduction SVG Graph (xsl:analyze-string) would not grab two dashes within the text only of the l element (not to do with anything in the rdg element), so I had to improvise and put the dashes inside the rdg elements. it ended up counting the dashes correctly. I'm hoping to fix this problem as soon as possible!! -->
+                        <!-- 2023-09-01: hjb: Wow! This was over 7 years ago! Anyways, these dashes are actually called em dashes, which is technically different than dashes. That's probably why it's only counting it as one dash rather than two, but I'm not sure if they meant the opposite where it's counting two dashes rather than one. I'm not sure if this was supposed to be here, but it's really cool seeing a comment from back when I was 12 years old! -->
+                    </app>
+                </l>
+                <l n="2">
+                    So over Horror,
+                    <app>
+                        <rdg wit="#df16" type="var1">it dumb fascinates—</rdg>
+                        <rdg wit="#df16 #fh" type="var0">it half Captivates—</rdg>
+                    </app>
+                </l>
+                <l n="3">The Soul stares after it, secure—</l>
+                <l n="4">
+                    <app>
+                        <rdg wit="#df16" type="var0">To know the worst, leaves no dread more—</rdg>
+                        <rdg wit="#df16 #fh" type="var1">A Sepulchre, fears frost, no more—</rdg>
+                    </app>
+                </l>
+            </lg>
+            <lg>
+                <l n="5">To scan a Ghost, is faint—</l>
+                <l n="6">
+                    But grappling,
+                    <app>
+                        <rdg wit="#df16">Conquers</rdg>
+                        <rdg wit="#fh">conquers</rdg>
+                    </app>
+                    it—
+                </l>
+                <l n="7">How easy, Torment, now—</l>
+                <l n="8">Suspense kept sawing so—</l>
+            </lg>
+            <lg>
+                <l n="9">
+                    The Truth, is Bald
+                    <app>
+                        <rdg wit="#df16">—</rdg>
+                        <rdg wit="#fh">, </rdg>
+                    </app>
+                    and Cold—
+                </l>
+                <l n="10">But that will hold—</l> <!-- 2023-09-01: hjb: The n attribute does not have a start quote for the value -->
+                <l n="11">If any are not sure—</l>
+                <l n="12">We show them—prayer—</l>
+                <l n="13">But we, who know,</l>
+                <l n="14">Stop hoping, now—</l>
+            </lg>
+            <lg>
+                <l n="15">Looking at Death, is Dying—</l>
+                <l n="16">Just let go the Breath—</l>
+                <l n="17">And not the pillow at your Cheek</l>
+                <l n="18">So Slumbereth—</l> <!-- 2023-09-01: hjb: This line element has two open elements, but it needs a closing element -->
+            </lg>
+            <lg>
+                <l n="19">Others, Can wrestle—</l>
+                <l n="20">Yours, is done—</l> <!-- 2023-09-01: hjb: This line element has no sign of a closing element, but it needs one -->
+                <l n="21">
+                    And so of
+                    <app>
+                        <rdg wit="#df16">Wo</rdg>
+                        <rdg wit="#fh">Woe</rdg> <!-- 2023-09-01: hjb: The <rdg> element has two open elements, but it needs a closing element -->
+                    </app>
+                    , bleak dreaded—
+                    <app>
+                        <rdg wit="#df16">Come</rdg>
+                        <rdg wit="#fh">come</rdg>
+                    </app>
+                    ,
+                </l>
+                <l n="22">It sets the Fright at liberty—</l>
+                <l n="23">And Terror's free—</l>
+                <l n="24">Gay, Ghastly, Holiday!</l>
+            </lg>
+        </body>
+    </text>
+</xml>

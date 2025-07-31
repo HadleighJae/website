@@ -1,0 +1,17 @@
+start = xml
+
+xml = element xml {meta+, poem}
+meta = element meta {type, mixed{title, name, date}}
+title = element title {text}
+name = element name {type, text}
+source = element source {mixed{title, name, date}}
+poem = element poem {type, stanza+}
+type = attribute type {text}
+stanza = element stanza {num, li+}
+num = attribute num {xsd:integer}
+li = element li {num, mixed{date*, fos*, etc*}}
+fos = element fos {type, mark*, num*, text}
+mark = attribute mark {text}
+date = element date {mixed{when}}
+when = attribute when {xsd:gYear | text}
+etc = element etc {type, text}

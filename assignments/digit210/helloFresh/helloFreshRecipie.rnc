@@ -1,0 +1,79 @@
+start = recipies
+
+recipies = element recipies {recipie+}
+
+recipie = element recipie {doc, head, body}
+
+doc = element doc {source, food, empty}
+
+source = attribute source {"Hello Fresh"}
+
+food = attribute food {"Chicken and Spaghetti Alfredo With a Twist with Tuscan Spices and Roasted Garlic Herb Butter"}
+
+head = element head {mixed{(description, nutritions, ingredients, utensils)*}}
+
+description = element description {note, tags, allergens, time, difficulty, servings}
+
+note = element note {text}
+
+tags = element tags {tag+, text}
+
+tag = attribute tag {"spicy"}
+
+allergens = element allergens {mixed{(allergen | allergensNote)* }}
+
+allergen = element allergen {text}
+
+allergensNote = element allergensNote {text}
+
+time = element time {duration?, fromDuration?, toDuration?, text}
+
+duration = attribute duration {xsd:duration}
+
+fromDuration = attribute fromDuration {xsd:duration}
+
+toDuration = attribute toDuration {xsd:duration}
+
+difficulty = element difficulty {level, text}
+
+level = attribute level {"easy" | "hard"}
+
+servings = element servings {people, text}
+
+people = attribute people {xsd:integer}
+
+nutritions = element nutritions {nutrition+, nutritionNote}
+
+nutrition = element nutrition {q, name, unit, text}
+
+nutritionNote = element nutritionNote {text}
+
+q = attribute q {xsd:decimal}
+
+name = attribute name {xsd:ID}
+
+unit = attribute unit {"kJ" | "kcal" | "g" | "mg" | "tbsp" | "oz" | "clove" | "c" | "unit" | "tsp"}
+
+ingredients = element ingredients {ingredient+}
+
+ingredient = element ingredient {q?, name, unit?, included, contains?, text}
+
+included = attribute included {"yes" | "no"}
+
+contains = attribute contains {"Wheat" | "Milk"}
+
+utensils = element utensils {utensil+}
+
+utensil = element utensil {name, text}
+
+body = element body {instructions}
+
+instructions = element instructions {instruction+}
+
+instruction = element instruction {num, mixed{(ref | time)*}}
+
+num = attribute num {xsd:int}
+
+ref = element ref {thing, text}
+
+thing = attribute thing {xsd:IDREF}

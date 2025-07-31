@@ -1,0 +1,16 @@
+start = xml
+xml = element xml {source, poem}
+source = element source {title, author, date}
+title = element title {level, text}
+level = attribute level {text}
+author = element author {text}
+date = element date {when}
+when = attribute when {xsd:gYear}
+poem = element poem {title, lineGroup+}
+lineGroup = element lineGroup {line+}
+line = element line {mixed{n, place*, placeName*, motif*}}
+place = element place {ref, text}
+ref = attribute ref {text}
+placeName = element placeName {ref, text}
+motif = element motif {text}
+n = attribute n {xsd:integer}

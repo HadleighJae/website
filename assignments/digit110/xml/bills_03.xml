@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <letters author="Marian Baldwin">
+        <letter>
+            <when type="DATE" date="1917-7-8">July 8th, 1917</when>
+            <!-- hjb: I decided to use a "when" element rather than "date" or "time" because that way I can use the "when" element whenever there was a day of the week, time, date, month, etc. -->
+            <p><when type="DOTW" date="1917-7-6">Friday</when> night we entered the war zone at
+                    <when type="TIME" time="19:00">seven o'clock</when> but you would never know it.
+                Aside from boat-drills and sleeping on deck people act as usual. The officers on the
+                boat are very particular about the drills; several times the alarm has sounded and
+                we have been taught just what to do in case we are hit. It's very funny to see the
+                people rush below for their valuables, strapping on their life preservers as they go
+                    <etc type="PARENTHESES">which we always have near at hand wherever we are -on
+                    deck or in the saloon</etc>.
+                <!-- hjb: although it's not necessary, I decided to give any parenthases or quotation marks an "etc" element just to give it emphasis. -->
+                In about five minutes we are lined up, divided into groups in front of our own
+                particular life-boats which have been swung out over the sea ready to lower. Every
+                one is checked off and each man is told what woman he is to save. <etc
+                    type="PARENTHESES">Great excitement at this point as no one of the men wants to
+                    save the lady detailed to him, but some one in another boat!</etc> We all stand
+                about looking too absurd and bumping into each other's life preservers on the
+                crowded upper deck. Finally the signal is given which releases us, and we all file
+                down again to take off the clumsy heavy jackets of safety and regale ourselves with
+                various amusements on the deck.</p>
+
+            <p>Rumor has it that two ships have been sunk, one in the course ahead of where we were
+                    <when type="SAYING" date="1917-7-7">yesterday</when> and the other about an hour
+                behind us. No one knows how many lives were lost. Perhaps those three submarines
+                were more fact than fiction after all.</p>
+
+            <p>It is thought that we should make <loc type="CITY" country="FRANCE" n="Bordeaux"
+                    >Bordeaux</loc>
+                <!-- hjb: a location element ("loc" for short) is used to indicate where Marian is talking about, whether it be a contry or city. -->
+                by <when type="DOTW" date="1917-7-10">Tuesday</when> morning if all goes well and
+                that the convoy which should have met us days ago will be with us <when
+                    type="SAYING" date="1917-7-8">to-night</when>.</p>
+
+            <p>This being <when type="DOTW" date="1917-7-8">Sunday</when>, the boys on board are
+                very much dressed up, that is to say they are wearing clean shirts and have their
+                hair brushed! It's a perfect day, warm and cloudless, and I've been lying in the sun
+                adding to my coat of tan. We all feel quite sad that the voyage is so nearly over
+                -it has been such loads of fun and I shall hate saying good-by to every one.</p>
+
+            <p>
+                <name type="BOAT" n="La-Touraine">La Touraine</name>
+                <!-- hjb: the "name" element is used for any sort of title and/or name. it is used for boat names, people's names, nationality, buildings, language, etc. -->
+            </p>
+        </letter>
+        <letter>
+
+            <p>En route from <loc type="CITY" country="FRANCE" n="Bordeaux">Bordeaux</loc> to <loc
+                    type="CITY" country="FRANCE" n="Paris">Paris</loc>, <when type="DATE"
+                    date="1917-7-18">July 18th, 1917</when>.</p>
+
+            <p> On landing <when type="SAYING" date="1917-7-17">yesterday</when> I went straight to
+                the <name type="BUILDING" n="Hôtel-De-France">Hôtel de France</name> and it
+                certainly was good to have room to turn around in: as for a bed with real springs I
+                greeted it with enthusiasm! Towards evening <name type="PERSON"
+                    n="Frank+Marian-Baldwin">Frank and I</name> took a long walk about the <loc
+                    type="CITY" country="FRANCE" n="Paris">city</loc>. A port town always interests
+                me and we saw it all at the loveliest time of day. The harbor was full of fishing
+                smacks and small craft of all kinds and exquisite tones in the sails and rigging.
+                The last rays of the sun cast a rosy hue over everything, making one think at once
+                of <loc type="CITY" country="ITALY" n="Venice">Venice</loc> and the days before the
+                war. Later <name type="PERSON" n="Frank+Marian-Baldwin">we</name> wandered through
+                some of the oldest parts of <loc type="CITY" country="FRANCE" n="Bordeaux"
+                    >Bordeaux</loc> and I really felt that I was abroad again! The narrow winding
+                streets and cobblestones, with here and there an ancient façade or doorway and
+                everywhere, in the poorest alleys, a bit of a vine or potted plant in the windows.
+                How do they manage to make it all so picturesque and alluring?</p>
+
+            <p>The women and the old men are doing everything and it is surprising to see the lady
+                conductors. On this train they use women entirely, even in the dining car. The war
+                hasn't robbed them of vivacity or their beautiful complexions and I believe they are
+                even prettier in their simple black working clothes than before.</p>
+
+            <p>We are at present passing through the famous vineyards and I have never seen the <loc
+                    type="COUNTRY" n="France">country</loc> look so beautiful. The crops seem in
+                perfect condition, thanks to the patient labor of these wonderful women, and the
+                grain waves in profusion everywhere. I have longed for you at every turn, how you
+                would enjoy it all. The poppies are in their prime and, as the train whirls by, they
+                look like immense splashes of red -almost like stains of blood against the gold of
+                the wheat.</p>
+
+            <p>I have just come in from a very excellent meal in the dining car -the food was served
+                promptly by two <name type="NATIONALITY" n="French">French</name> girls of the
+                peasant type and with a speed that was wonderful, the car holding over thirty
+                persons.</p>
+
+            <p>
+                <loc type="CITY" country="FRANCE" n="Paris">Paris</loc>
+            </p>
+
+        </letter>
+        <letter>
+
+            <p><loc type="CITY" country="FRANCE" n="Bordeaux">Bordeaux</loc>, <when type="DATE"
+                    date="1917-12-27">December 27th, 1917</when>.</p>
+
+            <p>Such crowded busy hours as we have put in during the last few days. However, there
+                will be a bit of a breathing spell now, as there are to be fewer men in on leave
+                until <when type="HOLIDAY" date="1918-01-01">New Year's</when>. This afternoon <name
+                    type="PERSON" n="Aunt-T">Aunt T.</name> is coming to see my hideous little room.
+                I have built a fire that is much too large for my diminutive fire-place, and we are
+                to have tea and cake! So you see it is to be a regular house warming.</p>
+
+            <p>I don't know whether I have written you about my sleeping apartment before. At any
+                rate, it is on the top floor of a tall thin house. It was the only place I could get
+                and so I have thought it wiser to laugh at its disadvantages. There is no coal, and
+                wood costs <d type="₣" amount="6">six francs</d>
+                <!-- hjb: the "d" element is used for units of something. --> for <d type="WOOD"
+                    amount="8">eight pieces</d> so one just goes without except on special occasions
+                like <when type="SAYING" date="1917-12-27">to-day</when>. I generally get in from
+                the canteen about <when type="TIME" time="23:30">11:30 P. M.</when> and then my four
+                flights seem a bit of a climb, but it is nice to have a little spot of your own and
+                I'm always so glad to get to the top of the stairs. I still have struggles with my
+                hot water bag, for I can always see my breath in the room and I think <etc
+                    type="QUOTATION-MARK">old faithful</etc> has gotten a bit discouraged and
+                doesn't think it worth while to keep warm in this damp penetrating clime.</p>
+
+            <p>The room is papered in a mud-colored tone of gold, beetle-shaped figures scattered
+                over it at intervals of <d type="in" amount="2">two inches</d>! I have a black iron
+                bedstead and a fire-place and mantelpiece made of the black and white mottled marble
+                that is used for tombstones! There are two windows, but unfortunately one can't look
+                out as they are made of red and navy blue stained glass. However, I am very fond of
+                my little room and <when type="SAYING" date="1917-12-27">to-day</when> it wears a
+                gay and festive look in anticipation of my party. I have put all my photographs out
+                and we are going to have a fine cozy time I know.</p>
+
+        </letter>
+        <letter>
+
+            <p>
+                <loc type="CITY" country="FRANCE" n="Aix">Aix</loc>, <when type="DATE"
+                    date="1918-5-10">May 10th, 1918</when>.</p>
+
+            <p>I've been very busy <when type="SAYING" date="1918-5-10">to-day</when> learning a new
+                dance. The weekly vaudeville troop arrived from <loc type="CITY" country="FRANCE"
+                    n="Paris">Paris</loc> minus one number and as <name type="PERSON" n="Carrell"
+                    >Mr. Carrell</name> and I have danced on several Stunt Night programs, they
+                asked us to fill in for the missing number. So we are on for a week and we were so
+                thankful that we had something that could be put right on to fill in. This little
+                taste of stage life under such delightful auspices, is great fun. I have a dressing
+                room all my own, No. 5, and <name type="PERSON" n="Alice">Alice</name> has been an
+                angel, acts as maid and helps me change my costume between our two numbers. We are
+                billed with the professionals all over town,<etc type="QUOTATION-MARK">Miss Baldwin
+                    &amp; <name type="PERSON" n="Carrell">Mr. Carrell</name>.</etc> It looked too
+                absurd.</p>
+
+            <p>I come on right after the <etc type="QUOTATION-MARK">trained cats</etc> and, while
+                waiting in the wings, dodge the <etc type="QUOTATION-MARK">snake charmer's</etc>
+                serpents! She has two about <d type="yd" amount="12">twelve yards</d> long apiece
+                and they wriggle and glide around behind the stage and appear suddenly in the most
+                unexpected manner! The snake charmer keeps them between times rolled up neatly in a
+                lunch basket with a cloth drawn tightly over the top! One of the acrobats told me
+                she doped them. Sometimes I get so interested behind the scenes that I almost forget
+                to go on when my turn comes. These vaudeville artists are the most kind-hearted of
+                mortals and have been so good to me and encouraged me in the nicest way the first
+                night, telling me to <etc type="QUOTATION-MARK">keep smiling and not be
+                    scared.</etc> One comedian has been especially good to me. -He white-washes his
+                face and wears a green nose and a suit with huge black and white checks!</p>
+
+        </letter>
+        <letter>
+
+            <p><loc type="COMMUNE" country="FRANCE" n="Baccarat">Baccarat</loc>, <when type="DATE"
+                    date="1918-7-15">July 15th, 1918</when>.</p>
+
+            <p>I am now working in the big new canteen at Headquarters, and believe me, it is one
+                busy place. I'm on duty only eight hours a day but during that time I work like mad
+                and scarcely have time to breathe. There is a line that files in and past our
+                counter and then out through a farther door. That line never stops from the time we
+                are open in the morning until it gets dark at night. I am kept hopping like a
+                grass-hopper and bed looks pretty good to me at the end of the day. It's a fine life
+                though, just work and food and sleep and I am thriving and growing fat on it!</p>
+
+            <p>We are at present attached to the 77th Division which is, as you know, the <loc
+                    type="STATE" country="UNITED STATES" n="New York">New York</loc> drafted bunch.
+                It is, I believe, a unique division and to me a most interesting one. It looks as
+                though they had taken a cross section of <loc type="CITY" country="UNITED STATES"
+                    n="New York City">New York City</loc> and divided it into Battalions, Regiments,
+                Companies and all the different units and branches of the service which go to make
+                up a division. The officers are almost entirely from the <etc type="QUOTATION-MARK"
+                    >four hundred</etc> so called, and the enlisted men from the lower East Side,
+                    <name type="NATIONALITY" n="Italian">Italians</name>, <name type="NATIONALITY"
+                    n="Polish-Jew">Polish Jews</name>, <name type="NATIONALITY" n="Greek"
+                    >Greeks</name>, <name type="NATIONALITY" n="Serbian">Serbs</name>, in fact,
+                representatives from most every country in the world. Many of them can't even speak
+                    <name type="LANGUAGE" n="English">English</name> intelligibly and I have been
+                thankful for my scraps of <name type="LANGUAGE" n="Italian">Italian</name>, <name
+                    type="LANGUAGE" n="French">French</name> and even <name type="LANGUAGE"
+                    n="German">German</name> to make them understand me. They are a ferocious
+                looking lot for the most part and always sure that I am trying to skin them. It's
+                rather pathetic and I try to be patient and make them understand that the <name
+                    type="ORG" n="YMCA">Y</name> may have made mistakes unintentionally but that we
+                are not in <loc type="COUNTRY" n="France">France</loc> to profiteer. It's a bit
+                discouraging at the end of a long hot day to have some boy throw the change you have
+                given him down on the counter and announce in a loud voice that the <etc
+                    type="QUOTATION-MARK">Y girl</etc> is trying to cheat him. They haven't learned
+                the value of <d type="₣">French money</d>, not having been over here long and are
+                tremendously suspicious of what they call <etc type="QUOTATION-MARK">that tin <d
+                        type="¥">Chinese money</d></etc>
+                <etc type="PARENTHESES">the <name type="NATIONALITY" n="French">French</name> have
+                    punctured their smaller coins in the center in order to save metal</etc> and are
+                always sure that you are trying to put something over on them. However, there are
+                many who make up for the disagreeable ones. Two or three <name type="NATIONALITY"
+                    n="Irish">Irish</name> lads with merry blue eyes and the most alluring of
+                brogues are generally hanging over the end of the counter and are very much my
+                friends. They are always right on the spot when there is a case of tobacco to be
+                opened or heavy things to lift and have even helped me squeeze lemons! The work is a
+                never ceasing joy to me on account of these bright spots and many others that turn
+                up constantly to make me happier than I have ever been in my life. No one who hasn't
+                tried it, knows what a satisfaction a long day's work can bring. Thank God for the
+                opportunity.</p>
+
+        </letter>
+        <letter>
+
+            <p><loc type="COMMUNE" country="FRANCE" n="Baccarat">Baccarat</loc>, <when type="DATE"
+                    date="1918-7-24">July 24th, 1918</when>.</p>
+
+            <p>A wonderful moon <when type="SAYING" date="1918-7-24">to-night</when> and the
+                countryside transformed under its silvery radiance. We have had terrible nights for
+                a week now and we are all more or less worn out with little sleep and long hot days.
+                The <name type="NATIONALITY" n="German">German</name> planes have been coming over
+                as regularly as clock work and as this sector is unimportant compared to others
+                farther up the line, we aren't really protected at all. An <name type="NATIONALITY"
+                    n="English">English</name> aëroplane field lies some miles in the country behind
+                us and they do what they can to help drive off the enemy planes but they aren't able
+                to accomplish much as they have a huge area to cover and very little equipment.</p>
+
+            <p>I thought I knew what an air raid was like after being in <loc type="CITY"
+                    country="FRANCE" n="Paris">Paris</loc> for <when type="TIME FRAME"
+                    from="1917-7-17" to="1917-11-20">six months</when>, but in comparison, those
+                raids seem like mere child's play. Ever since the moon was two days old, the <name
+                    type="NATIONALITY" n="German">Germans</name> haven't missed a single night and
+                as soon as it gets dark, we hear the ominous whirr. At once the peace and quiet
+                evaporate as if by magic and the whole atmosphere becomes alive with expectation and
+                silent fears. The church bell is set ringing furiously and the doleful sirens begin
+                their wailing from several parts of the town at once. Windows are thrown open and
+                people begin to call back and forth to each other. This lasts only a few moments and
+                then complete and utter silence. Every one has gone below ground and the town lies
+                waiting in the moonlight.</p>
+
+            <p>At first I refused to take refuge <etc type="QUOTATION-MARK">dans la cave</etc>
+                <etc type="PARENTHESES">the cellar</etc> partly because I didn't want to be
+                smothered to death beneath the plaster and brick walls of the house. A direct hit
+                seemed infinitely preferable to that, also, strange as it may seem, I had no desire
+                to get out of bed. I had lost so much sleep and had been working so hard, that night
+                generally found me thankful for a bed. Even if the noise of guns kept me awake I
+                could rest, and the moist, chilly cellar held no charms! However, I found that
+                staying <etc type="QUOTATION-MARK">au lit</etc> in the midst of an air raid was
+                unheard of in these parts and Madame M. rushed into my room and with tears in her
+                eyes implored me to accompany her below. The poor little old lady fears the avions
+                above all else and the sound of their motors drives her into a frenzy of fear. In
+                order to calm her I threw on a few clothes and we stumbled down the narrow stairs
+                and spent the dark hours huddled in a little group around a candle that sputtered
+                and flickered in the draughty, damp air. Our party consists always of Madame,
+                Joséphine, a <name type="NATIONALITY" n="French">French</name> officer, who is
+                likewise billeted in the house, and myself. The first night that we spent in the
+                cellar, he was already below when we ladies arrived. I have never seen a more droll
+                figure and I wonder now how I ever kept my face straight. He was attired in pink and
+                white pajamas and on his head at a jaunty angle sat his most dressy uniform cap
+                covered with gold braid and pale blue broadcloth! Undoubtedly he felt it added
+                dignity and a certain modesty to his appearance. As we came down he was pacing up
+                and down the mud floor in his bare feet! He told me that he had been through four
+                years of war, had seen comrades blown to atoms right beside him.<etc
+                    type="QUOTATION-MARK">I know what these bombs can do, I have seen with my two
+                    eyes, it is folly not to seek shelter in a raid, so when I hear the <name
+                        type="NATIONALITY" n="German">Boches</name> coming, I leap from my bed et je
+                    me sauve, Mademoiselle.</etc> I felt that he was right and that the <name
+                    type="NATIONALITY" n="French">French</name> must be thinking some of us very
+                children who are still taking war as a game, and looking upon our folly and daring
+                as bravery. Surely no one has any business to waste his life. For the first and
+                perhaps the last time our lives are infinitely important and useful.</p>
+
+            <p>This officer is really a very good sort and entertains us during the long hours with
+                tales of all sorts. We discuss the war at great length and try and keep our minds
+                occupied and off of the terrible sounds overhead. It's great for my <name
+                    type="LANGUAGE" n="French">French</name> and I am improving. Sometimes the noise
+                is deafening, the anti-air-craft guns keep up a continuous fire and yet the <name
+                    type="NATIONALITY" n="German">Germans</name> don't seem to be the least bit
+                daunted and fly just above the tops of the trees, placing their bombs with the most
+                pitiless accuracy. <when type="SAYING" date="1918-7-23">Last night</when> three
+                houses in this neighborhood were hit and in the old mill, half a block away, a young
+                woman and her little girl were killed. It was a ghastly few hours. Madame had one
+                fit of hysterics right after another and threw herself about the cellar in a spasm
+                of fear, trembling violently and moaning and crying. It was one of the most pathetic
+                and terrible sights I have ever seen. We tried to quiet her but as the bombs were
+                literally falling all about us, there wasn't much one could say to cheer her. When
+                one plane had dropped its supply of horror it would dash back and in ten minutes
+                another would be swooping and sailing above us and the crash and uproar would begin
+                again. In order that they may see better to do their hideous work, they drop a flare
+                which illuminates the town as though it were day. By the time the strong light has
+                burned itself out several bombs can be neatly placed.</p>
+
+            <p>The raid generally begins about <when type="TIME" time="21:00">nine o'clock</when>
+                and the planes come over in rapid succession until dawn. It is extraordinary what an
+                effect the sound of the <name type="NATIONALITY" n="German">German</name> motor has
+                upon one. The noise even at a great distance will wake me out of a sound sleep
+                whereas our own planes can fly right past my window and I never know it.</p>
+
+            <p>This morning the town is really upset. <when type="SAYING" date="1918-7-23">Last
+                    night</when>'s raid was the worst yet. Two of our soldiers in the <name
+                    type="BUILDING" n="Evacuation-Hospital">Evacuation Hospital</name> were killed
+                and a great number of <name type="NATIONALITY" n="French">French</name>. A bomb lit
+                across the street from the <name type="ORG" n="YMCA">Y</name> and this morning I
+                found all my canteen windows smashed into a thousand pieces. The <name
+                    type="NATIONALITY" n="German">Boches</name> dropped several notes all over the
+                streets written in <name type="LANGUAGE" n="French">French</name> which said <etc
+                    type="QUOTATION-MARK">If you think <when type="SAYING" date="1918-7-23">last
+                        night</when>'s raid a bad one, wait for <when type="SAYING" date="1918-7-24"
+                        >to-night</when>. We will break all records.</etc> The consequence is that
+                the morale is not very good, every one worn out with no sleep, horror piled on
+                horror, and the anticipation of worse things <when type="SAYING" date="1918-7-24"
+                    >to-night</when>.</p>
+
+            <p>Later -Same day.</p>
+
+            <p><when type="SAYING" date="1918-7-24">To-day</when> is a sizzler, quite the worse
+                we've had. The dust pours in at the windows and the canteen is black with flies.
+                We've been making lemonade for hundreds of hot, tired soldiers. They come in white
+                with dust and the perspiration running down their cheeks. No cotton uniforms to be
+                issued this summer; the boys have to wear their woolly winter ones, poor darlings,
+                and can't even take their blouses off. The result is that if this weather continues
+                the entire <name type="ORG" n="American-Expeditionary-Forces">A. E. F.</name> will
+                be reduced to a grease spot!</p>
+
+            <p>We have made a hundred and sixty liters of lemonade <when type="SAYING"
+                    date="1918-7-24">to-day</when>; the canteen has been jammed to the doors since
+                early morning with men, tongues hanging out and clammering for something <etc
+                    type="QUOTATION-MARK">cold and wet.</etc> The boys stand around in a huge ring
+                while we make the lemonade, offering all kinds of advice and suggestions; I have
+                quite a time keeping them on the other side of the counter; they all want to help
+                but we can't use more than three stalwart and professional lemon squeezers! When the
+                huge tank is finally filled, there are loud cheers from all present and it is worth
+                anything to see the gusto with which they dispatch the lemonade down their dusty
+                throats.</p>
+
+            <p>How I love this place, -it's perfectly great being attached to a division.</p>
+
+            <p><name type="PERSON" n="Westy">Westy</name>, <name type="PERSON" n="Alice"
+                    >Alice</name>, <name type="PERSON" n="Squibby">Squibby</name>, who have canteens
+                in little villages nearby, are in here quite frequently and we compare notes and
+                discuss methods, and our various problems at length. I imagine some of us will
+                shortly be sent back to <loc type="CITY" country="FRANCE" n="Aix">Aix</loc> as our
+                month of change is nearing its end. I can't tell you how I hate the thought of
+                leaving, although of course I want to be where I am most needed. The simplicity of
+                this place is a great contrast to <loc type="CITY" country="FRANCE" n="Aix"
+                    >Aix</loc> and does appeal to me so much more than the gay whirl down there with
+                the Casino and all its marble halls and broad terraces. There the boys come and go
+                and you do all you can to cheer them, but here they aren't on leave and are up
+                against the real thing, and, if possible, need a bit of feminine companionship more
+                than anywhere else. Also one belongs to a unit and after a while you come to feel a
+                very distinct sense of proprietorship, your hopes and fears and special prayers are
+                centered about the men of your outfit and their failures and successes are very much
+                your own. O! I do hope that the <name type="ORG" n="YMCA">Y</name> will let me stay
+                right where I am. I have made up my mind of course to be a good soldier whatever
+                comes, but I am hoping, hoping hard every minute that I shall be allowed to
+                stay.</p>
+        </letter>
+    </letters>
+</xml>

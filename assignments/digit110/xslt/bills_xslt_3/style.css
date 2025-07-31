@@ -1,0 +1,15 @@
+span.item {
+	color: red;
+}
+
+span.character {
+	color: blue;
+}
+
+span.faction {
+	color: purple;
+}
+
+span.location {
+	color: green;
+}

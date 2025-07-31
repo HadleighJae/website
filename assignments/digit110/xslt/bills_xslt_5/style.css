@@ -1,0 +1,73 @@
+/* 2023-11-10 ebb These are just some styling properties I added on the fly as I was working. 
+ * Feel free to modify them and change the selectors / values to match your own output!  */
+body {
+	background-color:grey;
+}
+
+.page {
+	border: 4px black solid; 
+	padding: 2em; 
+	width:80%;
+
+}
+
+div.panel {
+	border: 1px blue solid; 
+	padding: 1em; 
+	width: 90%;
+}
+
+table { 
+	border-collapse: collapse; 
+	width: 80%;
+	border: 2px solid blue;
+    margin-bottom: 5px;
+}
+
+tr {
+	border-collapse: collapse;
+	border: 0
+}
+
+th { 
+	border-collapse: collapse;
+	border: 1px solid  #000066;
+	background-color: #7E967E;
+	padding: 1px;
+	vertical-align:top;
+}
+
+td { 
+	border-collapse: collapse;
+	border: 1px solid #000066;
+	padding: 7px;
+	vertical-align:top;
+}
+
+.panelDesc {
+	font-style: italic;
+}
+
+.figDesc {
+	font-style: italic;
+}
+
+.cbml-caption {
+	font-variant-caps: small-caps;
+}
+
+.speech {
+	border: 1px solid black;
+    border-radius: 15px 15px 15px 0px;
+    padding: 2px;
+    color: black;
+    background-color: white;
+}
+
+.sound {
+	border-radius: 50%;
+	background: #ed3e3e;
+	padding: 5px; 
+	width: 200px;
+	height: 150px;
+}
